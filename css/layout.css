@@ -29,6 +29,23 @@
   		(colors, typography, margins & padding).]
 ------------------------------------------------------------------*/
 
+@import (css) "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";
+body {
+    background-color: #ECEFF1;
+    color: #37474F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 200;
+}
+
+
+
 html {
     overflow-x: hidden;
 }
@@ -42,6 +59,12 @@ body {
 body {
     position: relative;
     font-family: Hind, sans-serif;
+    background: #f2f4f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
 p {
