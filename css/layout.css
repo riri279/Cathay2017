@@ -76,6 +76,10 @@ p {
     margin-bottom: 15px;
 }
 
+hm-nav {
+    color: white;
+}
+
 em,
 li,
 li a {
