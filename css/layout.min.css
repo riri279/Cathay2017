@@ -779,7 +779,7 @@ fieldset[disabled] .btn-theme {
         display: inline-block
     }
     .header .nav-item-child {
-        color: #515769;
+        color: #8C97B2;
         line-height: 1.4;
         padding: 12px 12px 12px 15px
     }
@@ -832,7 +832,7 @@ fieldset[disabled] .btn-theme {
         display: inline-block
     }
     .page-on-scroll .header .nav-item-child {
-        color: #515769;
+        color: #8C97B2;
         transition-duration: .3s;
         transition-property: all;
         transition-timing-function: cubic-bezier(.7, 1, .7, 1)
@@ -1454,20 +1454,20 @@ fieldset[disabled] .btn-theme {
 .nav-lang li {
     float: left;
     line-height: 14px;
-    color: #8C97B2;
+    color: black;
 }
 
 .nav-lang li a.active,
 .nav-lang li a:hover {
-    color: #ff0000 !important;
+    color: black !important;
 }
 
 .header .nav-lang li {
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #8C97B2;
 }
 
 .page-on-scroll .nav-lang li {
-    border-right: 1px solid #515769;
+    border-right: 1px solid #8C97B2;
 }
 
 .nav-lang li:last-child {
@@ -1479,7 +1479,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .page-on-scroll .header .nav-lang li a {
-    color: #515769;
+    color: #8C97B2;
 }
 
 .nav-lang li a {

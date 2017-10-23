@@ -76,10 +76,6 @@ p {
     margin-bottom: 15px;
 }
 
-hm-nav {
-    color: white;
-}
-
 em,
 li,
 li a {
@@ -363,7 +359,8 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg {
     color: #515769;
-    background: #f3f4f5;    border-color: transparent;
+    background: #f3f4f5;
+    border-color: transparent;
     border-width: 0;
 }
 
