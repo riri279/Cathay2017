@@ -14,13 +14,7 @@ p {
 .btn-theme.focus,
 .btn-theme:active.focus,
 .btn-theme:active:focus,
-.btn-theme:focus,
-:active,
-:focus,
-a,
-a:active,
-a:focus,
-a:hover {
+.btn-theme:focus {
     outline: 0
 }
 
@@ -29,6 +23,11 @@ a:hover {
     width: 9px;
     height: 2px;
     content: " "
+}
+
+.nav-lang li a.active,
+.nav-lang li a:hover {
+    color: deepskyblue;
 }
 
 .header .nav-item-child,
@@ -62,9 +61,6 @@ span {
 .content-wrapper-link,
 .header .logo-wrap:focus,
 .header .logo-wrap:hover,
-a:active,
-a:focus,
-a:hover,
 h1 > a:focus,
 h2 > a:focus,
 h3 > a:focus,
@@ -98,24 +94,6 @@ p {
     margin-bottom: 15px
 }
 
-em,
-li,
-li a {
-    font-size: 16px;
-    font-weight: 500;
-    color: #515769
-}
-
-a {
-    color: #81848f
-}
-
-a:active,
-a:focus,
-a:hover {
-    color: #999caa
-}
-
 .link {
     font-size: 13px;
     font-weight: 600;
@@ -125,13 +103,13 @@ a:hover {
 .link:after {
     position: absolute;
     right: -15px;
-    color: #ff0000;
+    color: blue;
 }
 
 span {
     font-size: 14px;
     font-weight: 400;
-    color: #bfc1c7
+    color: black
 }
 
 h1,
@@ -711,7 +689,7 @@ fieldset[disabled] .btn-theme {
 .header .nav-item-child {
     font-size: 14px;
     font-weight: 700;
-    color: #8C97B2;
+    color: black;
     letter-spacing: .02em;
     font-family: "Ubuntu", Helvetica, Arial, sans-serif;
     line-height: 55px;
@@ -732,12 +710,12 @@ fieldset[disabled] .btn-theme {
 
 .header .nav-item-child:hover,
 .page-on-scroll .header .nav-item-child:hover {
-    color: #ff0000;
-    transition-duration: .4s
+    text-decoration: underline;
+    transition-duration: .4s;
 }
 
 .header .nav li.active .nav-item-child {
-    color: #ff0000;
+    color: deepskyblue;
 }
 
 @media (max-width:991px) {
@@ -779,7 +757,7 @@ fieldset[disabled] .btn-theme {
         display: inline-block
     }
     .header .nav-item-child {
-        color: #8C97B2;
+        color: inherit;
         line-height: 1.4;
         padding: 12px 12px 12px 15px
     }
@@ -832,7 +810,7 @@ fieldset[disabled] .btn-theme {
         display: inline-block
     }
     .page-on-scroll .header .nav-item-child {
-        color: #8C97B2;
+        color: inherit;
         transition-duration: .3s;
         transition-property: all;
         transition-timing-function: cubic-bezier(.7, 1, .7, 1)
@@ -841,7 +819,6 @@ fieldset[disabled] .btn-theme {
 
 .contact-list > li {
     font-size: 13px;
-    color: #81848f;
     margin-bottom: 10px
 }
 
@@ -1454,12 +1431,6 @@ fieldset[disabled] .btn-theme {
 .nav-lang li {
     float: left;
     line-height: 14px;
-    color: black;
-}
-
-.nav-lang li a.active,
-.nav-lang li a:hover {
-    color: black !important;
 }
 
 .header .nav-lang li {
@@ -1474,19 +1445,12 @@ fieldset[disabled] .btn-theme {
     border-right: none !important;
 }
 
-.header .nav-lang li a {
-    color: #8C97B2;
-}
-
-.page-on-scroll .header .nav-lang li a {
-    color: #8C97B2;
-}
-
 .nav-lang li a {
     padding: 0 5px;
     font-size: 14px;
     font-family: "Ubuntu", Helvetica, Arial, sans-serif;
     font-weight: 700;
+    color: #8C97B2;
 }
 
 .page-on-scroll .header .nav-item-child {
